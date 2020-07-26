@@ -1,0 +1,1 @@
+A very simple tileset for modern interiors. Might be useful as placeholder or for boxing out levels.
