@@ -1,0 +1,12 @@
+-simple top-down camera
+-blood decals
+-menu buttons
+-copyright notices in main menu
+-restart functionality
+-hit registration
+-player score
+-player death
+-zombie AI
+-military AI
+-collisions
+-unstuck functionality

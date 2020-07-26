@@ -1,0 +1,5 @@
+This project contains a number of small bugs. The code is aimed towards beginning users, yet may look very messy and complicated due to the nature of it's structure.
+
+It is recommended to use this project only for taking a look at seperate mechanics such as firing a weapon, an enemy spotting and attacking the player, etc.
+
+For testing it is recommended to use the interior_test room.

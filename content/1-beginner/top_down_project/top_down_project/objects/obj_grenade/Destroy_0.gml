@@ -1,0 +1,1 @@
+global.blowing = 0;

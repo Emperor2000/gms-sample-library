@@ -1,0 +1,3 @@
+canFire = true;
+//attack = true;
+

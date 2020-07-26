@@ -1,0 +1,153 @@
+Converting GML script: ${project_dir}\scripts\scr_animate\scr_animate.gml
+Converted description /// @description scr_animate
+
+Font fnt_courier_0 has been converted to font family Courier New (Bold)
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\fnt_courier_0\fnt_courier_0.gms1.png
+Converting GML script: ${project_dir}\objects\obj_light\Step_2.gml
+Converted builtin - line 4: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 4: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_shader_yellow\Draw_0.gml
+Converted builtin - line 6: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 6: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 2: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 2: view_hview -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_shader_dark\Create_0.gml
+Converted builtin - line 2: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 2: view_hview -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_shader_dark\Step_0.gml
+Converted builtin - line 3: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 7: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 3: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 7: view_hview -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_shader_dark\Draw_0.gml
+Converted builtin - line 2: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 2: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_shader_blue\Draw_0.gml
+Converted builtin - line 6: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 6: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 2: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 2: view_hview -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_int_light_alarm\Step_2.gml
+Converted builtin - line 4: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 4: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_menu\Draw_64.gml
+Converted description /// @description Draw menu buttons
+
+Converting GML script: ${project_dir}\objects\obj_button_small\Create_0.gml
+Converted description /// @description Variables
+
+Converting GML script: ${project_dir}\objects\obj_button_small\Step_0.gml
+Converted description /// @description Check button click
+
+Converting GML script: ${project_dir}\objects\obj_button_small\Draw_0.gml
+Converted description /// @description Draw this specific button
+
+Converting GML script: ${project_dir}\objects\obj_manager\Create_0.gml
+Converted description /// @description Variables
+
+Converting GML script: ${project_dir}\objects\obj_manager\Step_0.gml
+Converted description /// @description Check button click
+
+Converting GML script: ${project_dir}\objects\obj_manager\Draw_0.gml
+Converted description /// @description Draw this specific button
+
+macOS icon ${options_dir}\mac\icons\icon512.png written out as 32-bit
+Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2
+Converting GML script: ${project_dir}\objects\obj_bullet\Create_0.gml
+Converted description /// @description Bullet creation
+
+Converting GML script: ${project_dir}\objects\ai_military\Create_0.gml
+Converted description /// @description Variables
+
+Converting GML script: ${project_dir}\objects\ai_military\Step_0.gml
+Converted description /// @description Init behaviour
+
+Converting GML script: ${project_dir}\objects\ai_zombie\Create_0.gml
+Converted description /// @description Variables
+
+Converting GML script: ${project_dir}\objects\ai_zombie\Step_0.gml
+Converted description /// @description Follow
+
+Converting GML script: ${project_dir}\objects\obj_enemy\Create_0.gml
+Converted description /// @description Variables
+
+Converting GML script: ${project_dir}\objects\obj_enemy\Step_0.gml
+Converted description /// @description Follow
+
+Converting GML script: ${project_dir}\objects\obj_player\Create_0.gml
+Converted description /// @description Variables
+
+Converting GML script: ${project_dir}\objects\obj_player\Alarm_4.gml
+Converted description /// @description Can damage
+
+Converting GML script: ${project_dir}\objects\obj_player\Step_0.gml
+Converted description /// @description Death and damage
+Converted string - line 40: 'D' -> "D"
+Converted string - line 40: 'A' -> "A"
+Converted string - line 41: 'S' -> "S"
+Converted string - line 41: 'W' -> "W"
+
+Converting GML script: ${project_dir}\objects\obj_player\Collision_4879231f-8842-47cc-aa50-f398641db33b.gml
+Converted description /// @description Previous pos
+
+Converting GML script: ${project_dir}\objects\obj_player\Collision_2b94c086-be60-482a-9842-a890cef3bc86.gml
+Converted description /// @description Previous pos
+
+Converting GML script: ${project_dir}\objects\obj_player\Collision_136a419b-57b1-45ef-9957-51de2cfa7523.gml
+Converted description /// @description If hit by ai
+
+Converting GML script: ${project_dir}\objects\obj_player\Collision_c32738f6-0526-449f-9bc3-da2b9b3d1e1f.gml
+Converted description /// @description Back to previous pos
+
+Converting GML script: ${project_dir}\objects\obj_player\Collision_8a154edf-8322-4596-9821-0d6e4c7030b2.gml
+Converted description /// @description Previous pos
+
+Converting GML script: ${project_dir}\objects\obj_radio\Create_0.gml
+Converted description /// @description Variables
+
+Converting GML script: ${project_dir}\objects\obj_radio\Alarm_1.gml
+Converted description /// @description Finish cleanup
+
+Converting GML script: ${project_dir}\objects\obj_radio\Step_0.gml
+Converted description /// @description Turn on radio
+
+Converting GML script: ${project_dir}\objects\obj_cash_register\Create_0.gml
+Converted description /// @description Variables
+
+Converting GML script: ${project_dir}\objects\obj_cash_register\Step_0.gml
+Converted string - line 11: 'E' -> "E"
+
+Converting GML script: ${project_dir}\objects\obj_cash_register\Draw_64.gml
+Converted description /// @description Tooltip
+
+Game speed set to 60
+Added compatibility script 'action/action_bounce.gml'
+Added compatibility script 'action/action_effect.gml'
+Added compatibility script 'action/action_end_game.gml'
+Added compatibility script 'action/action_fullscreen.gml'
+Added compatibility script 'action/action_if_variable.gml'
+Added compatibility script 'action/action_kill_object.gml'
+Added compatibility script 'action/action_move_to.gml'
+Added compatibility script 'action/action_restart_game.gml'
+Added compatibility script 'action/action_set_cursor.gml'
+Added compatibility script 'action/action_set_relative.gml'
+Added compatibility script 'action/action_sound.gml'
+Added compatibility script 'draw/draw_set_blend_mode.gml'
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script 'view/__view_get.gml'
+Added compatibility script 'action/__init_action.gml'
+Added compatibility script 'view/__init_view.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script '__global_object_depths.gml'

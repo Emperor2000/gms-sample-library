@@ -1,0 +1,2 @@
+obj_enemy is a template for enemies, however, it is very basic and misses some of the latest functionality. 
+If you want a melee ai please use ai_zombie, if you use a ranged ai, please use ai_military.

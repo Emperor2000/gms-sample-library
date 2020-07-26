@@ -1,0 +1,2 @@
+canHurt = true; //can damage
+

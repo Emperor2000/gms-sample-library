@@ -1,0 +1,28 @@
+F: Can I use the sprites or code commercially?
+A: Yes, you are allowed to use everything in the project for commercial and non-commercial purposes.
+
+F: I have an error and I can't fix it, what do I do?
+A: Please send an email to info@hendracle.nl or contact us through the marketplace. We will try to resolve your issue.
+
+F: I do not understand the code.
+A: Please take a look at the comments included with the code, if you still do not understand, feel free to contact me.
+
+F: How do I know which objects I need to place in my room?
+A: Please take a look at the instances in the r_main, r_interior_test and r_test room. There you can see all essential objects.
+
+F: I want to add more enemies, what should I do?
+A: Make the ai_military or ai_zombie a parent object, and in the child object override the variables and sprites to your liking.
+
+F: I have problems with the included shaders. I do not know what do do.
+A: The shading is included as is, they are marked as not supported, they should however work, but it is recommended to use them with caution. They are old and converted from GMS 1.4 into GMS 2.
+
+F: What are the obj_radio and obj_cash_register objects?
+A: These objects are included to show simple movement examples when hit by a bullet, the movement is not at all realistic and does not have proper physics. They are marked DO_NOT_USE for this reason.
+
+F: Why do I see some sprites or objects that aren't used.
+A: These objects and sprites are included as extra functionality, such as the grenade. The grenade feature is currently very unstable and it is strongly advised not to use it for the time being.
+
+F: What is the audio included and can I use it?
+A: The audio included can be used commercially and non-commercially, it is generated using the Bfxr audio tool.
+
+FOR ANY OTHER QUESTIONS, PLEASE CONTACT ME THROUGH THE MARKETPLACE. THANK YOU FOR YOUR PURCHASE.

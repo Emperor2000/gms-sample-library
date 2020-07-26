@@ -1,0 +1,2 @@
+canLoot = true;
+
