@@ -3,7 +3,7 @@ A library with demo projects to learn Game Maker Studio and Game Maker Language 
 
 
 
-Projects are categorized in multiple difficulty levels
+**Projects are categorized in multiple difficulty levels:**
 
 1 (beginner) - Small projects / Samples for specific solutions or small game templates.   
 2 (beginner-intermediate) - Projects that are slightly longer or code that is a bit more complicated than the beginner level.  
