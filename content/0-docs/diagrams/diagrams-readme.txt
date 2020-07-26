@@ -1,0 +1,1 @@
+This folder is used for diagrams and other visual representations of code to help with mainly code architecture
