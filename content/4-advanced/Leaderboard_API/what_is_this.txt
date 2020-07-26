@@ -1,0 +1,5 @@
+This is an API built in NodeJS connected to a database. An API defines routes and specific actions. In order to call a route, you define a URL that you call from your other application. The API handles the user's data and responds with data of it's own, that the user/application then loads.
+
+This particular API is created to function as a leaderboard API. When leaderboard data needs to be saved, a post route is called and the information is stored in the database.
+
+In order for Game Maker to view all the leaderboard info, there is a get route that can be called every X seconds or at the start of the application. This syncs the leaderboard info and parses it from JSON to data that Game Maker can read. There are several tutorials that you can find online on parsing data from node to Game Maker.
