@@ -1,0 +1,8 @@
+You might have noticed that the performance could get pretty bad when you have a very large amount of ships (300)+
+
+Here is a list of optimizations that could be added that should have significant results:
+-Gradually add ships until you reach the desired amount. This way less memory will be used because fewer ships will need to be spawned in rapidly.
+-Optimize explosions: Right now the explosions are very simple. To optimize you could create a bigger explosion sprite and create fewer instances.
+-Do not make the ships all fire at the exact same time, rather add a bit of a random factor. - NOTE THAT THIS OPTIMIZATION IS IMPLEMENTED AND ENABLED ON DEFAULT! This is done using the alarm[] events in each of the ships. A random_range is added in order to vary the cooldowns.
+-When any objects leave the room (means room looping is off) ALWAYS destroy the instances or they will still take up memory and performance.
+-If you have a player ship, disable objects far away from it using instance_deactivate_object(); This will save memory and performance. -> results in completely disabling the object, this also means that it is inaccessible. Make sure to re-enable it when you need it!

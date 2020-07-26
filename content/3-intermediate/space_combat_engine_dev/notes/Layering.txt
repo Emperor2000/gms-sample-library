@@ -1,0 +1,2 @@
+Ammo or projectiles should be instantiated under ships.
+Explosions should be instantiated above ships.

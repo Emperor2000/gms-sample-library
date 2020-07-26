@@ -1,0 +1,1 @@
+room_goto(screensave_room_medium);

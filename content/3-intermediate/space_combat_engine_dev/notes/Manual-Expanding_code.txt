@@ -1,0 +1,50 @@
+This document has the purpose of explaining how you can expand upon this project. 
+I have tried to keep everything as simple and clean as possible, although I included some unused demo code.
+For example a template of some other weapons in the form of an enum.
+
+
+This file has been formatted so that you can read it in-engine. If you have any feedback or concerns please contact me.
+I do recommend you to read the notes first before contacting.
+
+------------------------------------------------------------------------------
+This tutorial should teach you how to use this template or engine:
+------------------------------------------------------------------------------
+Adding a new faction with a fighter:
+
+
+Let's say you want to add a new faction with it's own fighter and laser weapon.
+
+There is only 1 file you will need to alter:
+1. game_manager - add your faction to the "FACTION_TYPE" enum found in the #diplomacy region in the CREATE EVENT.
+
+
+there are a number of files you will need to create:
+
+fighter:
+Create a sprite for the fighter, I recommend you to stick to a naming convention for clarity, for example obj_name, oName, o_name or objName (and spr or s when using sprites).
+
+Create an object for your fighter, duplicate one of the other fighters and edit the values. 
+Some values you need to edit are it's faction, the sprite and the script it will use to instantiate lasers or projectiles.
+
+Create a script for creating a laser, duplicate on of the create laser scripts (not the player's) and edit the script name and instance name of the laser it should instantiate.
+
+You may have noticed this won't run, since the laser object has not been added yet.
+duplicate one of the LASERS (not the parent) and edit the faction in the create event. You can add a new sprite for the laser and apply it in the projectile's (LASER_YOURFACTION) code.
+
+
+
+
+WARNING:
+when creating a new room, make sure to duplicate from room0 to include all the neccesary layers ("Instances", "Projectiles" and "Projectiles2").
+
+
+
+Congratulations! You added a new faction with it's very own ship to your project! 
+I hope this short guide taught you how to expand this project. 
+If you have any questions, please contact me through:
+your website of purchase (itch.io or GameMaker Marketplace)
+Discord, VincentHendriks#2646
+Email info@hendracle.nl
+
+
+

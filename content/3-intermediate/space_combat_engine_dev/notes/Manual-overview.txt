@@ -1,0 +1,69 @@
+notes:
+
+--------------------------------------------------------------
+- general -
+--------------------------------------------------------------
+1.
+Please read the License.
+2.
+If you have any questions or concerns, you can contact me through the platform of purchase (itch.io or Game Maker Marketplace).
+3.
+Start your game in debug mode (the bug icon) to view some data, fps, number of ships and explosions. Note that fps is capped to 60 due to to the room speed.
+4. 
+The player currently does not do anything when he dies. If you want to add a death, paste the following code in the player's step event:
+
+if (hp <= 0) {
+alarm[2] = 120;
+}
+
+alarm[2] EVENT:
+
+room_goto(r_menu);
+
+upon executing the code the player will return to the menu.
+
+
+
+
+--------------------------------------------------------------
+- naming conventions and project structure - 
+--------------------------------------------------------------
+1.
+--------------------------------------------------------------
+constant values, enums, and objects that do not have their own behaviour are named in CAPS LOCK for clarity.
+2.
+--------------------------------------------------------------
+objects that do not have the "o_"  prefix should never be instantiated, the only exception being the game_manager. 
+It is a persistent object that should be placed at the very start of your game.
+3.
+--------------------------------------------------------------
+sprites have been categorized in a few folders, I hope this will help you maintain a clean project!
+4.
+--------------------------------------------------------------
+A couple of scripts are included, They are explained here:
+
+
+create_laser ::: creates an instance of "LASER", which is used for when the player fires the LASER weapon. 
+
+create_laser_red ::: creates an instance of "LASER_RED", which is used for when the red AI fires the LASER weapon. 
+
+create_laser_purple ::: creates an instance of "LASER_PURPLE", which is used for when the purple AI fires the LASER weapon. 
+
+create_laser_yellow ::: creates an instance of "LASER_YELLOW", which is used for when the yellow AI fires the LASER weapon. 
+
+create_layer_blue ::: creates an instance of "LASER_BLUE", which is used for when the blue AI fires the LASER weapon.
+
+move_towards_ship ::: requires 1 parameter, must be an instance id. This is used to make ai move towards a target instance.
+
+bounce_off_object ::: a script that takes 3 arguments, instance, acceleration and max speed. 
+Calculates a bounce direction through point direction after which a bounce is added using motion_add, takes a bounce direction and acceleration.
+
+instance_find_enemy ::: a script that I did not write, it is retrieved from GML scripts. 
+It is used to filter through allied and enemy ships by creating data structures, which is a form of a list. 
+This way you can take variables into account which the default GameMaker instance_nearest does not allow you to do.
+
+
+------------------------------------------------
+Thank you for reading the overview documentation.
+------------------------------------------------
+
