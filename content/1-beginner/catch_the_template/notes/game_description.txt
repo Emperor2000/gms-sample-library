@@ -1,0 +1,1 @@
+Objects fall down, the player can gain points by hitting the objects and preventing them from leaving the screen. When the objects leave the screen the player's health decreases.

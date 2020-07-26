@@ -1,0 +1,7 @@
+obj_player : an object that can be moved left and right by the player, score a point when collididing with a falling object.
+
+obj_controller : a persistent object that manages the player's high score throughout the game.
+
+obj_game : an object used to intialize the game, place this in the room you want to use as your game room
+
+obj_item_falling : the object type used for creating items that fall. Initialized by obj_game

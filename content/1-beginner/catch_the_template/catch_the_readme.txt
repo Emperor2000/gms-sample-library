@@ -1,0 +1,1 @@
+"Catch_The_Template" is a template for a common game theme where objects fall down and the player has to 'catch' them. For example, fruit that you can catch in a basket.
