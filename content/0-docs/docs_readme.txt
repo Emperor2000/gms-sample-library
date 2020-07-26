@@ -1,0 +1,1 @@
+This folder contains documentation, diagrams and small samples
