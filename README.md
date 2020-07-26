@@ -4,6 +4,7 @@
 
 
 **Projects are categorized in multiple difficulty levels:**
+0 (New) - Used for documentation, guides, UML diagrams and small scripts.
 1 (beginner) - Small projects / Samples for specific solutions or small game templates.   
 2 (beginner-intermediate) - Projects that are slightly longer or code that is a bit more complicated than the beginner level.  
 3 (intermediate) - Projects that are significant size.   
