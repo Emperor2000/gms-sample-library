@@ -14,7 +14,3 @@
   
 **Who is this for?**
 This repository is aimed mostly towards people that do not have a lot of experience with Game Maker. However, that is not to say that there is nothing valuable here for experienced developers. My intention is to create a valuable list of sample projects that can help anyone with building their solution.
-  
-  
-  
-**Would you like to contribute?** Contact me on Discord: VincentHendriks#2646
