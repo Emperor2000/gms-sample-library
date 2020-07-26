@@ -1,0 +1,9 @@
+License:
+
+
+You are NOT allowed to publish projects made with this template commercially or non-commercially unless you ask for specific permission. You can do this by contacting me through discord: VincentHendriks#2646 or sending an email to info@hendracle.nl
+
+You are not allowed to redistribute the code in any way, shape or form.
+
+This project is meant to function only as a reference and an example of how you could create a multiplayer architecture 
+

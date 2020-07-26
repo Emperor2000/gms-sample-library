@@ -1,0 +1,1 @@
+sprite_index = s_suit_1_idle;
