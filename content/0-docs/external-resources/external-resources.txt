@@ -17,4 +17,4 @@ Top Down Engine: https://hendracle-interactive.itch.io/game-maker-studio-2-top-d
 
 Free tutorials:
 
-https://marketplace.yoyogames.com/assets/6279/inverse-kinematics-tutorial
+Inverse Kinematics: https://marketplace.yoyogames.com/assets/6279/inverse-kinematics-tutorial
