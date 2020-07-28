@@ -1,0 +1,1 @@
+In this sample you can see how you could deal with hit registration

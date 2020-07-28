@@ -1,0 +1,1 @@
+In this sample there is a setup for subsystems/modules of a specific object. For example, if you have a spaceship and you want to add multiple guns to it that function individually you can use subsystems. This way you can manage health and functionality for each subsystem seperately.
