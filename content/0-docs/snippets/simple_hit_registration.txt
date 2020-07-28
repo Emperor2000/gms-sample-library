@@ -1,0 +1,34 @@
+(project file also included)
+Prerequisites:
+
+-mouse_based_aiming 
+
+
+Changes:
+create a simple enemy sprite, this can be 32x32.
+create a new object, obj_enemy
+
+
+
+alteration to obj_proj:
+	collision event with obj_enemy:
+		//You can also use specific code that have the same functionality as a collision event, you might come accross that in other tutorials!
+		with (other) { 
+			hp -= 1;	
+		}
+		instance_destroy(); //destroy the bullet
+		
+		
+
+obj_enemy:
+	create:
+		hp = 2;
+		max_hp = 2;
+		
+		
+	step:	
+		if (hp <= 0) {
+			show_debug_message("My id is: " + string(id) + "I will be deleted because I do not have any health left!");
+			instance_destroy();
+
+		}
