@@ -1,0 +1,87 @@
+This is a quick guide at writing statements, it is not a thorough explanation and more of a reference file. As with the other guide, I plan to add a more detailed one later.
+
+
+If you want to check for a specific condition
+
+if (variable_i_want_to_evaluate == variable_should_equal_me) {
+//code goes here
+} 
+
+-variable_i_want_to_evaluate is equal to variable_should_equal_me, so now I can write code here that only executed if these variables match. From now on these will be referenced as variable1 and variable 2, respectively.
+-you should use (2x =) (==) at all times in statements, using only = IS WRONG as you are allocating a variable rather than evaluating a variable. Almost all programming languages will throw an error if you do this!
+
+If the variable you want to evaluate is a boolean (true or false):  
+if (variable1) {
+//scenario is true
+} else {
+//scenario is false
+}
+You can do this because if the boolean is true the code literally means if (true) which is always true and evaluates as such.
+
+If you want to check if something is false you can prefix it with !
+
+if (!variable1) {
+//scenario is false
+} else {
+//scenario is true
+}
+
+Nested variables are messy. Try to avoid using more than 3 levels, it will keep it more readable for yourself.
+
+
+If there is only 1 line of code you need to execute after the if statement, you can remove {} and instead directly type the code after it like this:
+if (variable1) x=5;
+This will set x to 5 if variable1 equals true.
+
+If you want to evaluate a number of possibilities for the same variable you can use a switch case.
+
+{
+switch (variable)
+   {
+   case 0:
+      x -= 4;
+      break;
+   case 1
+      x += 4;
+      break;
+   case 2
+      y -= 4;
+      break;
+   case 3
+      y += 4;
+      break;
+   }
+}
+
+This translates to: if (variable == 0) { //do something } else if (variable == 1) { //do something } else if (variable == 2) { //do something } etc.
+
+Note: Always put the most likely outcome on top, because it will optimize your code. It's great if you can make the game faster just by moving some lines. In a lot of cases this will be negligible, but as your code base becomes bigger the results will as well.
+
+
+What if there are multiple possible outcomes and I want to evaluate them both?
+if (variable1 == 1 || variable1 == 5) {
+
+}
+
+DONT DO if (variable1 == 2 || 5), IT IS WRONG!
+
+What if there are multiple outcomes that should both be the case
+if (variable1 == 1 && variable 2 == 2) {
+
+}
+
+|| equals OR
+&& equals AND
+== equals equals
+
+
+
+I hope this simple guide helps! I'll replace it with something better when I have time for it!
+
+
+ 
+
+
+
+
+
