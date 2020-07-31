@@ -1,0 +1,33 @@
+Reference to the GameMaker manual:
+https://docs2.yoyogames.com/source/_build/3_scripting/3_gml_overview/6_scope.html
+There are several ways to scope your variables in Game Maker. In order to make the right decision there are a few questions you should answer:
+•	When do I need the variable?
+•	Should the variable be readable from multiple objects/do multiple objects use the variable?
+•	Should the variable be changed?
+If the variable should not be changed, you should use a constant (a macro in Game Maker).
+If you need to create a macro I would recommend creating a new script and putting the macro in there. 
+Macros are defined like this: #macro MYMACRO 10
+It is common practise in the Game Maker community to type your macros in capitals only, though I would say you can use anything as long as you are comfortable with it and consistent.
+ 
+As for variables, there are basically three types of variables.
+-Instance variables
+-Local variables
+-Global variables
+Each of these different and have their own use cases.
+
+Instance variables
+You should use instance variables when a specific object needs a variable, the variable says something about that specific object. For example, health. This could also be a weapon cooldown timer or something similar.
+ 
+Example of some variables in a create event.
+
+Local variables
+Local variables are used when only a specific script or piece of code needs information and isn’t used anywhere else. For example, this could be a variable that calls a function or an instance that is created every 30 steps.
+ 
+Example of a variable storing the result of the point_direction() function. (angle of object to the mouse). After this another local variable _inst is created which stores information about a created instance of the object ‘sample_object’. Afterwards we can edit it by calling _inst and changing it’s properties/variables.
+
+Global Variables
+Global variables generally don’t store information about a specific object, rather they are some sort of game rules that are subject to change. Maybe a game_scale or a camera angle. Although you could argue it belongs in a camera object, but that depends a bit on the setup of your project. Global variables can also be very useful for reading data from save files, because they are persistent over your game session. So if you want to use variables that shouldn’t be removed after finishing a specific level, you don’t have to create a persistent object per se. Global variables don’t run in a specific object, which is a big difference from instance variables and local variables.
+ 
+
+This is not an official guide, this is a simple example of scoping that I put together quickly, I hope it helps, I plan to add a more detailed one later on!
+
