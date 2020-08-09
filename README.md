@@ -24,9 +24,10 @@ guides: programming concepts explained, if/else statements, switch cases, etc.
 samples: small demo projects showcasing specific features such as mouse based aiming, top-down movement or hit registration.  
 snippets: code snippets that can easily be copy pasted. Snippet includes simple movement code, mouse based aiming, etc.  
 
-```
+
 **Table of Content**  
 **Docs**  
+```
 diagrams:   
 -none currently included.  
   
@@ -49,7 +50,7 @@ samples:
 snippets:  
 -mouse_based_aiming  
 -simple_hit_registration  
-  
+```  
 
 **sample projects by difficulty level:**  
 0 - Not applicable  
@@ -57,4 +58,4 @@ snippets:
 2 - None  
 3 - Two projects  
 4 - One project  
-```
+
