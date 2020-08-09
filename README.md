@@ -13,4 +13,15 @@
   
   
 **Who is this for?**
-This repository is aimed mostly towards people that do not have a lot of experience with Game Maker. However, that is not to say that there is nothing valuable here for experienced developers. My intention is to create a valuable list of sample projects that can help anyone with building their solution.
+This repository is aimed mostly towards people that do not have a lot of experience with Game Maker. However, that is not to say that there is nothing valuable here for experienced developers. My intention is to create a valuable list of sample projects that can help anyone with building their solution.  
+  
+**Index:**  
+**DOCS:**  
+diagrams: (UML diagrams, charts, designs, etc.)  
+external-resources: Links to free and helpful content.  
+graphics: tilesets, etc.  
+guides: programming concepts explained, if/else statements, switch cases, etc. 
+samples: small demo projects showcasing specific features such as mouse based aiming, top-down movement or hit registration.  
+snippets: code snippets that can easily be copy pasted. Snippet includes simple movement code, mouse based aiming, etc.  
+
+
