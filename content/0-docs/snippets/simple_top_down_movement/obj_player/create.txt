@@ -1,0 +1,2 @@
+move_speed = 4;
+//change move_speed to desired value.

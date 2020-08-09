@@ -1,0 +1,15 @@
+var _right = keyboard_check(vk_right) or keyboard_check(ord("D"));
+var _left = keyboard_check(vk_left) or keyboard_check(ord("A"));
+var _up = keyboard_check(vk_up) or keyboard_check(ord("W"));
+var _down = keyboard_check(vk_down) or keyboard_check(ord("S"));
+
+//input axis
+var _input_x = _right - _left;
+var _input_y = _down - _up;
+
+//get movement speed
+move_x = _input_x * move_speed;
+move_y = _input_y * move_speed;
+
+x += move_x;
+y += move_y;
