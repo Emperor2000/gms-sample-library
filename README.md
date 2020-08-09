@@ -25,9 +25,9 @@ samples: small demo projects showcasing specific features such as mouse based ai
 snippets: code snippets that can easily be copy pasted. Snippet includes simple movement code, mouse based aiming, etc.  
 
 
-**Table of Content**  
-**Docs**  
+**Table of Content**    
 ```
+docs:
 diagrams:   
 -none currently included.  
   
