@@ -1,20 +1,13 @@
-(last updated: July 2020):
+(last updated: March 2021):
 This file contains a number of links to external websites that contain helpful resources. These resources have seperate owners.
-
+===
 Recognize one of the url's as your own and don't want it to be listed? Contact me through GitHub: Emperor2000 or Discord: VincentHendriks#2646
-
-Game Maker resources: https://docs2.yoyogames.com/source/_build/1_overview/2_quick_start/4_resources.html
+===
+Game Maker resources: 
+https://docs2.yoyogames.com/source/_build/1_overview/2_quick_start/4_resources.html
 Game Maker manual: https://docs2.yoyogames.com/
 Game Maker GitHub: https://github.com/topics/gamemaker
-
-
-My resources:
-Space Combat Engine: https://hendracle.nl
-Top Down Engine: https://hendracle-interactive.itch.io/game-maker-studio-2-top-down-engine
-
-
-
-
+===
 Free tutorials:
-
 Inverse Kinematics: https://marketplace.yoyogames.com/assets/6279/inverse-kinematics-tutorial
+===
