@@ -40,12 +40,14 @@ graphics:
 guides:  
 -if/else statements and switch cases guide  
 -scoping variables guide  
+etc.
   
 samples:  
 -mouse_based_aiming  
 -simple_hit_registration  
 -simple_top_down_movement  
 -subsystems/modules
+-etc, etc
   
 snippets:  
 -mouse_based_aiming  
@@ -56,6 +58,6 @@ snippets:
 0 - Not applicable  
 1 - Two projects  
 2 - None  
-3 - Two projects  
+3 - Three projects  
 4 - One project  
 
