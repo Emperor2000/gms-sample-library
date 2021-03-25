@@ -1,0 +1,8 @@
+This project showcases functionality for dragging in 2 different ways. 
+1. Hold left mouse button on an object to drag it
+2. Click on an object with lmb, click elsewhere with rmb and the object will move there.
+
+
+seperation of concerns: 
+1. obj_plane is responsible for moving itself if it has a target position (in situation 1 position is updated from the obj_selector)
+2. obj_selector for functionality/situation one, obj_select_and_move for the situation two.
