@@ -1,0 +1,1 @@
+This folder may also contain slightly larger projects where the code is still relatively simple. Occasional diagrams may also be added here and some common architecture principles can be maintained here.
