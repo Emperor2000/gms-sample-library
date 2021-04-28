@@ -55,7 +55,7 @@ snippets:
 
 **sample projects by difficulty level:**  
 0 - Not applicable  
-1 - Two projects  
+1 - Three projects  
 2 - Three projects  
 3 - One project  
 
