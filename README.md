@@ -46,7 +46,6 @@ samples:
 -simple_hit_registration  
 -simple_top_down_movement  
 -subsystems/modules
--etc, etc
   
 snippets:  
 -mouse_based_aiming  
