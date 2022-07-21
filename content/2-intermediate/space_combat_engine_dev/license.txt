@@ -1,1 +1,2 @@
-License description url: https://hendracle-interactive.itch.io/space-combat-engine
+Commercial & Non-Commercial usage allowed (projects, games, etc.)
+Redistributing the code (edited or otherwise) is not allowed. 
